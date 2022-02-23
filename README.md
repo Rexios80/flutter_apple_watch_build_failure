@@ -1,16 +1,17 @@
 # apple_watch_test
 
-A new Flutter project.
+An example project showing that newly generated Apple Watch targets fail to build with flutter
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Build with flutter 2.10.1
 
-A few resources to get you started if this is your first Flutter project:
+To see the failure:
+ - Checkout the master branch
+ - Run `flutter build ios`
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+To see the workaround
+ - Checkout the workaround branch
+ - Run `flutter build ios`
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The workaround should be unnecessary once the issue is fixed in flutter
